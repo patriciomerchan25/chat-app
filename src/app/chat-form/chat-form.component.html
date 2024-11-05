@@ -1,0 +1,12 @@
+<h1>Chat App</h1>
+<div class="chat-container">
+  <input type="text" [(ngModel)]="username" id="name" placeholder="Nombre" class="textbox">
+  <button id="connect" class="button-connect" (click)="connect()">Conectar</button>
+  
+  <div id="chat-area" class="chat-area">
+    <textarea id="messages" readonly>{{ messages.join('\n') }}</textarea>
+  </div>
+  
+  <input type="text" [(ngModel)]="message" id="txtmensaje" placeholder="Mensaje" class="textbox" *ngIf="isConnected">
+  <button (click)="sendMessage()" class="button-send" *ngIf="isConnected">Enviar</button>
+</div>

@@ -4,7 +4,7 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-color: #fff;
+    background-color: #2bd6a0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 .chat-container {
     width: 300px;
     height: 500px;
-    background-color: #fff;
+    background-color: #3ec45b;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -43,11 +43,11 @@ body {
 }
 
 .button-connect {
-    background-color: green;
+    background-color: rgb(128, 0, 109);
 }
 
 .button-send {
-    background-color: blue;
+    background-color: rgb(202, 141, 9);
 }
 
 .chat-area {
